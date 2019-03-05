@@ -1,0 +1,36 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "DB_HOST": {
+      "required": true
+    },
+    "DB_NAME": {
+      "required": true
+    },
+    "DB_PASSWORD": {
+      "required": true
+    },
+    "DB_PORT": {
+      "required": true
+    },
+    "DB_USER": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "ah-alpha",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
