@@ -63,7 +63,6 @@ INSTALLED_APPS = [
     'authors.apps.profiles',
     'authors.apps.reading_stats',
     'rest_framework_swagger',
-    # credits --> https://github.com/axnsan12/drf-yasg
     'drf_yasg',
     'social_django',
     'django_filters',
